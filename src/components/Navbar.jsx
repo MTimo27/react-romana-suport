@@ -25,7 +25,7 @@ function Navbar() {
         <p>Selectează ciclul: </p>
         <a href="/">Gimnazial</a>
         <p>/</p>
-        <a href="/">Licean</a>
+        <a href="/">Liceal</a>
       </div>
     </div>
   );

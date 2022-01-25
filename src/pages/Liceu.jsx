@@ -39,7 +39,7 @@ function Liceu() {
           />
           <Download
             title={
-              'Arhivă cu toate subiectele care s-au dat din anii anteriori și baremele lor'
+              'Arhivă cu toate subiectele care s-au dat în anii anteriori și baremele lor'
             }
             href={'/'}
           />
