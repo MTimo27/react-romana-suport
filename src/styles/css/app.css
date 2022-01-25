@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700;800&display=swap");
+.button { background-color: #1034a6; color: #fff; font-size: 1rem; padding: 1em; border: none; cursor: pointer; }
+
+*, *:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; }
+
+footer, header, nav, section, main { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+input { -webkit-appearance: none; border-radius: 0; }
+
+a { text-decoration: none; color: inherit; }
+
+*, body { font-family: "Karla", sans-serif; }
+
+h1 { font-size: 1.5rem; font-weight: 800; line-height: 2rem; }
+
+.main { min-height: calc(100vh - 131px); }
+
+.navbar { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 0.8rem; letter-spacing: 1.5px; }
+
+.navbar__hero { width: 100%; background-color: #1034a6; color: #fff; padding: 1em 2em 1em 2em; }
+
+.navbar__links { width: 100%; background-color: #1033a627; color: #292929; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 0.5rem; padding: 1em 2em 1em 2em; font-size: 0.8rem; }
+
+.navbar__links a, .navbar__links p { font-weight: 600; text-transform: uppercase; }
+
+.navbar__links a { color: #1034a6; }
