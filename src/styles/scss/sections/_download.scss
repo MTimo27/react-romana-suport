@@ -1,0 +1,10 @@
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  p {
+    line-height: 1.2rem;
+  }
+}
