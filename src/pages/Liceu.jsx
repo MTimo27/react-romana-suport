@@ -1,9 +1,11 @@
 import React from 'react';
 import Download from '../components/Download';
 import DropdownEseuri from '../components/DropdownEseuri';
-import DropdownTeste from '../components/DropdownTeste';
+import DropdownTesteAnterioare from '../components/DropdownTesteAnterioare';
+import DropdownTesteAntrenament from '../components/DropdownTesteAntrenament';
 
 function Liceu() {
+  let path = '/resurse/Bacalaureat';
   return (
     <div className="liceu">
       <div className="liceu__title">
@@ -14,15 +16,15 @@ function Liceu() {
         <div className="container container--section">
           <Download
             title={'Programa Bacalaureat 2022'}
-            href={'/'}
+            href={`${path}/Programa Bacalaureat 2022.pdf`}
           />
           <Download
             title={'Model Eseu Argumentativ Sub I'}
-            href={'/'}
+            href={`${path}/Sub I/Model Eseu Argumentativ Sub I.pdf`}
           />
           <Download
             title={'Modele de Rezolvare Sub II'}
-            href={'/'}
+            href={`${path}/Sub II/Modele de Rezolvare Sub II.pdf`}
           />
           <DropdownEseuri />
         </div>
@@ -32,18 +34,22 @@ function Liceu() {
             title={
               'Arhivă cu toate subiectele de antrenament și baremele lor'
             }
-            href={'/'}
+            href={`${path}/Teste de antrenament/Teste de Antrenament și Bareme Teste de Antrenament.rar`}
           />
-          <DropdownTeste
+          <DropdownTesteAntrenament
             title={'Subiecte de antrenament'}
           />
           <Download
             title={
-              'Arhivă cu toate subiectele care s-au dat în anii anteriori și baremele lor'
+              'Arhivă cu subiecte care s-au dat în anii anteriori și baremele lor'
             }
-            href={'/'}
+            href={`${path}/Subiecte din anii anteriori/Subiecte din anii anteriori.rar`}
           />
-          <DropdownTeste title={'Subiecte care s-au dat'} />
+          <DropdownTesteAnterioare
+            title={
+              'Subiecte care s-au dat in anii anteriori'
+            }
+          />
         </div>
       </div>
     </div>

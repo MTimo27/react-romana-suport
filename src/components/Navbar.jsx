@@ -21,12 +21,12 @@ function Navbar() {
         </p>
       </div>
 
-      <div className="navbar__links">
+      {/* <div className="navbar__links">
         <p>Selectează ciclul: </p>
         <a href="/">Gimnazial</a>
         <p>/</p>
         <a href="/">Liceal</a>
-      </div>
+      </div> */}
     </div>
   );
 }

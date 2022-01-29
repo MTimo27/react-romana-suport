@@ -5,7 +5,9 @@ function Download({ title, href }) {
     <div className="download">
       <p>{title}</p>
       <button className="button">
-        <a href={href}>Descarcă</a>
+        <a href={href} download>
+          Descarcă
+        </a>
       </button>
     </div>
   );
