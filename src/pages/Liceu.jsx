@@ -47,7 +47,7 @@ function Liceu() {
           />
           <DropdownTesteAnterioare
             title={
-              'Subiecte care s-au dat in anii anteriori'
+              'Subiecte care s-au dat în anii anteriori'
             }
           />
         </div>
