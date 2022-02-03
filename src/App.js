@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Liceu from './pages/Liceu';
+import Views from './Views';
 import './styles/css/app.css';
 
 function App() {
@@ -8,9 +8,8 @@ function App() {
     <div className="app">
       <div className="main">
         <Header />
-        <Liceu />
+        <Views />
       </div>
-
       <Footer />
     </div>
   );
