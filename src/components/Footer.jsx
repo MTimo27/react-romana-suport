@@ -63,6 +63,35 @@ function Footer() {
             </a>
           </li>
         </ul>
+        <ul>
+          <li>
+            <a
+              href="https://deacoffee.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              DeaCoffee
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://10laromana.ro"
+              rel="noreferrer"
+              target="_blank"
+            >
+              10LaRomână
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://mariadius.com/bac/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Mariadius
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="footer__line"></div>
       <div className="footer__credits">
