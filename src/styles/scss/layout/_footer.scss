@@ -2,10 +2,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1em 2em 1em 2em;
+  padding: $padding-small;
   background-color: $primary-color;
   color: $primary-text-color;
   min-height: 10rem;
+  @media screen and (min-width: $tablet-breakpoint) {
+    padding: $padding-large;
+  }
   &__links {
     display: flex;
     flex-direction: row;

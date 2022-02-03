@@ -17,8 +17,6 @@ function DropdownEseuri() {
     eseu: '',
   });
 
-  console.log(dropdownData);
-
   //Function that handles the change when the user selects an option
   function handleChange(event) {
     const { name, value } = event.target;

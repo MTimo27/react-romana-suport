@@ -1,0 +1,7 @@
+.teste {
+  width: 100%;
+  padding: $padding-small;
+  @media screen and (min-width: $tablet-breakpoint) {
+    padding: $padding-large;
+  }
+}

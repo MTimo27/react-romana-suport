@@ -8,7 +8,10 @@
     width: 100%;
     background-color: $primary-color;
     color: $primary-text-color;
-    padding: 1em 2em 1em 2em;
+    padding: $padding-small;
+    @media screen and (min-width: $tablet-breakpoint) {
+      padding: $padding-large;
+    }
   }
   &__links {
     width: 100%;
@@ -18,8 +21,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
-    padding: 1em 2em 1em 2em;
+    padding: $padding-small;
     font-size: 0.8rem;
+    @media screen and (min-width: $tablet-breakpoint) {
+      padding: $padding-large;
+    }
     a,
     p {
       font-weight: 600;

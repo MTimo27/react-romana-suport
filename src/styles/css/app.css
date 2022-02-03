@@ -47,11 +47,15 @@ h1 { font-size: 1.5rem; font-weight: 800; line-height: 2rem; }
 
 @media screen and (min-width: 768px) { .container--liceu { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 5rem; } }
 
+.container--teste { max-width: 100%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 5rem; }
+
 .container--section { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 @media screen and (min-width: 768px) { .container--section { width: 25rem; } }
 
 .footer { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 1em 2em 1em 2em; background-color: #1034a6; color: #fff; min-height: 10rem; }
+
+@media screen and (min-width: 768px) { .footer { padding: 1em 4em 1em 4em; } }
 
 .footer__links { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; padding: 0.5em 0 0.5em 0; gap: 1rem; }
 
@@ -69,7 +73,11 @@ h1 { font-size: 1.5rem; font-weight: 800; line-height: 2rem; }
 
 .navbar__hero { width: 100%; background-color: #1034a6; color: #fff; padding: 1em 2em 1em 2em; }
 
+@media screen and (min-width: 768px) { .navbar__hero { padding: 1em 4em 1em 4em; } }
+
 .navbar__links { width: 100%; background-color: #1033a627; color: #292929; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 0.5rem; padding: 1em 2em 1em 2em; font-size: 0.8rem; }
+
+@media screen and (min-width: 768px) { .navbar__links { padding: 1em 4em 1em 4em; } }
 
 .navbar__links a, .navbar__links p { font-weight: 600; text-transform: uppercase; }
 
@@ -77,9 +85,15 @@ h1 { font-size: 1.5rem; font-weight: 800; line-height: 2rem; }
 
 .liceu { width: 100%; padding: 1em 2em 1em 2em; }
 
+@media screen and (min-width: 768px) { .liceu { padding: 1em 4em 1em 4em; } }
+
 .liceu__title h1 { font-size: 1.5rem; font-weight: 800; }
 
 .liceu__line { width: 5rem; height: 2px; background-color: #1033a627; }
+
+.teste { width: 100%; padding: 1em 2em 1em 2em; }
+
+@media screen and (min-width: 768px) { .teste { padding: 1em 4em 1em 4em; } }
 
 .download { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; gap: 0.5rem; margin-top: 1rem; }
 

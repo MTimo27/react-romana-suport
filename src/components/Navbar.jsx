@@ -24,12 +24,12 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="navbar__links">
+      {/* <div className="navbar__links">
         <p>Selectează pagina: </p>
         <Link to="/resurse">Resurse</Link>
         <p>/</p>
         <Link to="/teste">Teste grila</Link>
-      </div>
+      </div> */}
     </div>
   );
 }

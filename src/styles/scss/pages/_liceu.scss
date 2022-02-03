@@ -1,6 +1,9 @@
 .liceu {
   width: 100%;
-  padding: $padding;
+  padding: $padding-small;
+  @media screen and (min-width: $tablet-breakpoint) {
+    padding: $padding-large;
+  }
   &__title {
     h1 {
       font-size: 1.5rem;

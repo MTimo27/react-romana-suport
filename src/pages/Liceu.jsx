@@ -1,6 +1,7 @@
 import React from 'react';
 import Download from '../components/Download';
 import DropdownEseuri from '../components/DropdownEseuri';
+import DropdownSubII from '../components/DropdownSubII';
 import DropdownTesteAnterioare from '../components/DropdownTesteAnterioare';
 import DropdownTesteAntrenament from '../components/DropdownTesteAntrenament';
 
@@ -23,8 +24,13 @@ function Liceu() {
             href={`${path}/Sub I/Model Eseu Argumentativ Sub I.pdf`}
           />
           <Download
-            title={'Modele de Rezolvare Sub II'}
-            href={`${path}/Sub II/Modele de Rezolvare Sub II.pdf`}
+            title={'Arhivă cu toate subiectele Sub II'}
+            href={`${path}/Sub II/Sub II.rar`}
+          />
+          <DropdownSubII title={'Sub II'} />
+          <Download
+            title={'Arhivă cu toate eseurile Sub III'}
+            href={`${path}/Sub III/Sub III.rar`}
           />
           <DropdownEseuri />
         </div>
